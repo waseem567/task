@@ -2,7 +2,7 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { IPhaseItem, List } from "./Roadmap";
+import { IPhaseItem, List } from "@/data/types/types";
 
 const Phase = ({ phaseItem }: { phaseItem: IPhaseItem }) => {
   useEffect(() => {
