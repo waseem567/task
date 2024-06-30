@@ -13,17 +13,13 @@ export default function Home() {
     <div className="mx-auto">
       <Navbar />
       <Hero />
-      {/* <Vision /> */}
+      <Vision />
       {/* custom ribbon component */}
       {/* <Wrapper /> */}
       <Video />
-      <div className="min-h-max">
-        <Popular />
-      </div>
+      <Popular />
       {/* <CardsWrapper /> */}
-
       <Roadmap />
-
       <Questions />
     </div>
   );
