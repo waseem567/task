@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: #000;
+}
+:root {
+  --themeColor: #dc143c;
+  --themeGradient: linear-gradient(to right, #ed213a, #fd1640);
+}
+@layer components {
+  .nav-option {
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .nav-option:hover {
+    color: var(--themeColor);
+  }
+  .text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    line-clamp: 10;
+    -webkit-box-orient: vertical;
+  }
+}
+/* theme fonts */
+.font-zen {
+  font-family: "Zen Dots", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+/* 
+ */
+/* cards grid - css */
+.cards-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+.cards-grid-container .card2 {
+  column-span: 2 !important;
+  border: 1px solid white;
+}
+.grid-row-height {
+  grid-template-rows: 377px 377px 377px;
+}
+.grid-col-width {
+  grid-template-columns: 400px 400px;
+}
+.bg-img {
+  background-image: url("/images/question_bg.png");
+}
