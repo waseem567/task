@@ -25,7 +25,7 @@ const Vision = () => {
           landscape. We envision a digital realm where the rich tapestry of
           cultural traditions, especially the intricate artistry of masks from
           diverse ethnic groups, is seamlessly woven into the fabric of the
-          digital age. Our vision extends far beyond mere NFTs; it's about the
+          digital age. Our vision extends far beyond mere NFTs; its about the
           preservation and celebration of cultural heritage in a dynamic,
           ever-evolving digital space. We strive to empower artists and
           creators, offering them a unique canvas to bring their cultural art to
