@@ -60,10 +60,7 @@ const DotCircle = () => {
     Aos.init();
   }, []);
   return (
-    <div
-      className="flex flex-col justify-center hover:animate-spin z-20 relative my-1"
-      data-aos="fade-up"
-    >
+    <div className="flex flex-col justify-center hover:animate-spin z-20 relative my-1">
       <div className="w-[38px] h-[38px] bg-[#FD1640] rounded-3xl flex justify-center">
         <div className="w-[28px] h-[28px] bg-[#D9D9D9] rounded-3xl"></div>
       </div>
