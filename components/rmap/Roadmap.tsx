@@ -156,7 +156,7 @@ const Roadmap = () => {
           Road
           <span className="text-[#FD1640]">map</span>
         </div>
-        <p className="font-inter text-[24.58px]">
+        <p className="font-inter text-[24.58px] text-white">
           Guiding the fusion of culture, AI, and Web3 innovation
         </p>
       </div>

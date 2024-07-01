@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Wrapper /> */}
       <Video />
       <Popular />
-      <div className="max-w-screen overflow-x-hidden">
+      <div className="max-w-screen overflow-hidden h-max">
         <Roadmap />
       </div>
       <Questions />
