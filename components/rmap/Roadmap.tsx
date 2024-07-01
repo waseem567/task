@@ -151,7 +151,7 @@ const data: IPhaseItem[] = [
 const Roadmap = () => {
   return (
     <>
-      <div className="text-center flex flex-col gap-[36.12px] p-2">
+      <div className="text-center flex flex-col gap-[36.12px] p-2 max-w-screen overflow-x-hidden">
         <div className="text-white font-normal text-[50px]">
           Road
           <span className="text-[#FD1640]">map</span>

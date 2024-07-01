@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${zen_dots.className} overflow-x-hidden`}>
+      <body className={`${zen_dots.className} overflow-x-hidden max-w-screen`}>
         {children}
       </body>
     </html>

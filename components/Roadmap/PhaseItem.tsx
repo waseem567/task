@@ -27,7 +27,7 @@ const Phase = ({ phaseItem }: { phaseItem: IPhaseItem }) => {
           className={`xl:w-[1200px] lg:w-[843px] sm:w-[650px]  w-[315px] h-[180px] xl:h-[140px] bg-[#FD1640] xl:p-[10px] flex items-center relative mt-[44.88px] ${phaseItem?.style2}`}
         >
           <ul
-            className={`font-inter lg:text-base xl:text-xl list-disc ${phaseItem?.style5}`}
+            className={`text-white font-inter lg:text-base xl:text-xl list-disc ${phaseItem?.style5}`}
           >
             {phaseItem?.list?.map((item: List) => {
               return <li key={item?.id}>{item?.title}</li>;

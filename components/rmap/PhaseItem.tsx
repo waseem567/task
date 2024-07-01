@@ -5,26 +5,26 @@ import { useEffect } from "react";
 import { IPhaseItem, List } from "./Roadmap";
 
 const Phase = ({ phaseItem }: { phaseItem: IPhaseItem }) => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  // useEffect(() => {
+  //   Aos.init();
+  // }, []);
   return (
     <div className="flex ">
       <div className="ml-4">
         <DotCircle />
         {phaseItem.id === 4 ? "" : <Line />}
       </div>
-      <div className="ml-[31px] relative" data-aos={phaseItem.dataAos}>
+      <div className="ml-[31px] relative">
         <div
           className={`bg-[#FD16404D] relative bottom-[9px] max-w-[307px] xl:max-w-[562px] h-[57px] text-xl flex items-center text-[#FD1640] pl-[29px] ${phaseItem.style1}`}
         >
           {phaseItem?.phase}
         </div>
-        <div className="absolute -right-2 top-[5.79rem]" data-aos="fade-left">
+        <div className="absolute -right-2 top-[5.79rem]">
           <img src="/images/Vector-13.png" alt="" />
         </div>
         <div
-          className={`xl:w-[1200px] lg:w-[843px] sm:w-[650px]  w-[315px] h-[180px] xl:h-[140px] bg-[#FD1640] xl:p-[10px] flex items-center relative mt-[44.88px] ${phaseItem?.style2}`}
+          className={`sm:w-full  min-w-[200px] h-[180px] xl:h-[140px] bg-[#FD1640] xl:p-[10px] flex items-center relative mt-[44.88px] ${phaseItem?.style2}`}
         >
           <ul
             className={`font-inter lg:text-base xl:text-xl list-disc ${phaseItem?.style5}`}
