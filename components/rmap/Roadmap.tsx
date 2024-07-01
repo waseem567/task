@@ -160,7 +160,7 @@ const Roadmap = () => {
           Guiding the fusion of culture, AI, and Web3 innovation
         </p>
       </div>
-      <div className="mt-[147px] mx-auto container w-max">
+      <div className="mt-[147px] ">
         {data.map((item) => {
           return <Phase key={item?.id} phaseItem={item} />;
         })}

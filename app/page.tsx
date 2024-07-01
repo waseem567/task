@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Popular from "@/components/popularnfts/Popular";
 import Questions from "@/components/question/Questions";
 import Wrapper from "@/components/ribbon/Wrapper";
-import Roadmap from "@/components/Roadmap/Roadmap";
+import Roadmap from "@/components/roadmap/Roadmap";
 import Video from "@/components/video/Video";
 import Vision from "@/components/vision/Vision";
 
@@ -20,6 +20,7 @@ export default function Home() {
       <Popular />
       {/* <CardsWrapper /> */}
       <Roadmap />
+
       <Questions />
     </div>
   );
