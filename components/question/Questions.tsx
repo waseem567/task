@@ -15,11 +15,11 @@ const Questions = () => {
               find answers
             </div>
 
-            <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 w-full">
+            <div className="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 max-w-[300px] dark:border-gray-700 w-full">
               <ul className="flex -mb-px justify-between">
                 <li className="me-2">
                   <button
-                    className="inline-block p-4 text-[var(--themeColor)] border-b-2 border-[var(--themeColor)] rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                    className="inline-block p-4 text-[var(--themeColor)] border-b-2 border-[var(--themeColor)] rounded-t-lg active  dark:border-[var(--themeColor)]"
                     aria-current="page"
                   >
                     General
@@ -27,7 +27,7 @@ const Questions = () => {
                 </li>
                 <li className="me-2">
                   <button
-                    className="inline-block p-4 text-[white] rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                    className="inline-block p-4 text-[white] rounded-t-lg active dark:text-white"
                     aria-current="page"
                   >
                     Pre Ice
@@ -36,7 +36,7 @@ const Questions = () => {
                 <li className="me-2">
                   <a
                     href="#"
-                    className="inline-block p-4 text-white rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                    className="inline-block p-4 text-white rounded-t-lg active dark:text-white"
                     aria-current="page"
                   >
                     Token
@@ -45,7 +45,7 @@ const Questions = () => {
                 <li className="me-2">
                   <a
                     href="#"
-                    className="inline-block p-4 text-white rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                    className="inline-block p-4 text-white rounded-t-lg active dark:text-white"
                     aria-current="page"
                   >
                     Client
@@ -54,7 +54,7 @@ const Questions = () => {
                 <li className="me-2">
                   <a
                     href="#"
-                    className="inline-block p-4 text-white rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                    className="inline-block p-4 text-white rounded-t-lg active dark:text-white"
                     aria-current="page"
                   >
                     Legal
