@@ -160,7 +160,7 @@ const Roadmap = () => {
           Guiding the fusion of culture, AI, and Web3 innovation
         </p>
       </div>
-      <div className="mt-[147px] ">
+      <div className="mt-[147px] container mx-auto flex justify-center flex-col items-center">
         {data.map((item) => {
           return <Phase key={item?.id} phaseItem={item} />;
         })}

@@ -24,7 +24,7 @@ const Phase = ({ phaseItem }: { phaseItem: IPhaseItem }) => {
           <img src="/images/Vector-13.png" alt="" />
         </div>
         <div
-          className={`xl:w-[1200px] lg:w-[843px] sm:w-[650px]  w-max h-[180px] xl:h-[140px] bg-[#FD1640] xl:p-[10px] flex items-center relative mt-[44.88px] ${phaseItem?.style2}`}
+          className={`xl:w-[1200px] lg:w-[843px] sm:w-[650px]  w-[300px] h-[180px] xl:h-[140px] bg-[#FD1640] xl:p-[10px] flex items-center relative mt-[44.88px] ${phaseItem?.style2}`}
         >
           <ul
             className={`text-white font-inter lg:text-base xl:text-xl list-disc ${phaseItem?.style5}`}
